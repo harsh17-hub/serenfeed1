@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #211407;
+    width: 1441px;
+    height: 120px;
+}
+.logo{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: -20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;  
+}
+.log1{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    height: 52px;
+    width: 95px;
+    font-weight: bold;
+    background-color: #FEFEEC;
+}
+.log2{
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #fefeec;
+    height: 52px;
+    width: 95px;
+}
+.titles{
+    display: flex;
+    background-color: #C1C1B4;
+    height: 808px;
+    width: 100%;
+}
+h1{
+    margin-left: 100px;
+    margin-top: 200px;
+    color:#120901;
+    font-size: 80px;
+    text-shadow: rgba(1,1,10,0.7) 0px 3px 6px;
+}
+h4{
+    margin-left: -400px;
+    margin-top: 420px;
+    font-weight: lighter;
+}
+.laptop{
+    background-image: url(Picsart_25-08-24_19-58-35-152.png);
+    background-size: cover;
+    height:512px;
+    width: 854px;
+    display: flex;
+    margin-left: 550px;
+    margin-top: -580px;
+}
+.getstarted{
+    height:66px;
+    width: 215px;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:100px;
+    margin-top: -240px;
+}
+.pic{
+    background-image: url(Screenshot-2025-08-22-001206.png);
+    background-size:cover;
+    height: 230px;
+    width: 399px;
+    border-radius: 30px;
+    margin-left: 1050px;
+    margin-top: -470px;
+    border: solid black 1px;
+}
+.readblog{
+    margin-top: 600px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.description{
+    font-weight: lighter;
+    color:#828282;
+    font-size: 20px;
+}
+.picture{
+    background-image: url(Screenshot-2025-08-19-161404.png);
+    background-size: cover;
+    height: 393px;
+    width: 554px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 800px;
+    margin-top: -250px;
+}
+.writeblog{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+.picture2{
+    background-image: url(file-ALMfutPPZU.png);
+    background-size: cover;
+    height: 393px;
+    width: 554px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: -800px;
+    margin-top: -300px;
+}
+.foot{
+    margin-top: 200px;
+    margin-left: 90px;
+    font-size: 30px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px ;
+    margin-left: 90px;
+}
+.explore2{
+    display: flex;
+   
+    flex-direction: column;
+    margin-top: 48px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+h3{
+    font-weight: lighter;
+    color:#828282;
+    font-size: 20px;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
