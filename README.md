@@ -1,3 +1,5 @@
+SerenFeed 📝✨
+
 SerenFeed is a clean and minimal blog website where users can create blogs, read blogs, and connect with bloggers.
 The platform is designed to make writing and reading simple, engaging, and distraction-free.
 
@@ -6,6 +8,8 @@ The platform is designed to make writing and reading simple, engaging, and distr
 ✍️ Create Blogs – Share your thoughts, stories, or guides with an easy-to-use editor.
 
 📖 Read Blogs – Explore a variety of blogs with a clean and minimal reading experience.
+
+⏸️ Smart Break Reminder – SerenFeed gently reminds you to take a break after a set reading limit, promoting mindful and healthy screen time.
 
 🤝 Connect with Bloggers – Interact and build connections with bloggers in the community.
 
@@ -17,7 +21,7 @@ To create a mindful digital space where people can express themselves, share kno
 
 🛠️ Tech Stack (example)
 
-Frontend: HTML, CSS 
+Frontend: HTML, CSS
 
 📬 Contact
 
