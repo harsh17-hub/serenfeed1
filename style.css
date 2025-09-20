@@ -155,14 +155,14 @@ h3{
     flex-direction: row;
 }
 
-.feedback{
+/* .feedback{
     font-size: 30px;
     margin-top: 120px;
     margin-left: 90px;
     font-weight: bolder;
 }
 .feedbackarea{
-    height: 180px;
+    height: 250px;
     width: 400px;
     border: rgba(128, 128, 128, 0.058) solid;
     margin-top: 50px;
@@ -193,4 +193,106 @@ h3{
     color: black;
     font-weight: bolder;
     font-size: 25px;
+}
+.photo{
+    margin-top: 50px;
+    margin-left: 50px;
+    height:45px;
+    width: 45px;
+    border: solid black;
+    border-radius: 50%;
+    background-image:url(pfp.jpeg);
+    background-size: contain;
+}
+.user1{
+    display:flex;
+    justify-content: space-between;
+}
+.name{
+    border: solid black;
+    border-radius: 20%;
+    height: 50px;
+    width: 157px;
+
+} */
+
+/* Section */
+.feedback-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Cards Container */
+.feedback-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.feedback-card {
+  flex: 1 1 300px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fafafa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Feedback text */
+.feedback-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp.jpeg) ;
+  background-size: contain;
+}
+.user-img1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp1.jpeg) ;
+  background-size: contain;
+}
+.user-img2{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp2.jpeg) ;
+  background-size: contain;
+}
+.user-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.role {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
 }
