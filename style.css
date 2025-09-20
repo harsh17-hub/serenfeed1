@@ -296,3 +296,43 @@ h3{
   font-size: 12px;
   color: gray;
 }
+
+/*footer area*/
+
+.footer{
+    display: flex;
+    height: 533px;
+    width:100%;
+    background-color:#FEFEEC ;
+}
+.brand{
+    height: 36px;
+    width: 122px;
+    color: #120901;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 38px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-content:space-between;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.help{
+    margin-left: 50px;
+}
+.company{
+    margin-left: 50px;
+}
+.type{
+    margin-top: 10px;
+    color: #454545;
+    font-size: 15px;
+}
