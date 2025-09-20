@@ -155,6 +155,7 @@ h3{
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 /* .feedback{
     font-size: 30px;
     margin-top: 120px;
@@ -168,31 +169,87 @@ h3{
     margin-top: 50px;
     margin-left: 90px;
     border-radius: 20px;
+=======
+/* Section */
+.feedback-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
-.box2{
-    display: flex;
-    border: rgba(128, 128, 128, 0.058) solid;
-    margin-left: 450px;
-    margin-top: -110px;
-    height: 180px;
-    width: 400px;
-    border-radius: 20px;
+
+.feedback-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+>>>>>>> 86dfad83301b80ebebe40035613a0c95992e3ad0
 }
-.box3{
-    display: flex;
-    border: rgba(128, 128, 128, 0.058) solid;
-    margin-left: 900px;
-    margin-top: -188px;
-    height: 180px;
-    width: 400px;
-    border-radius: 20px;
+
+/* Cards Container */
+.feedback-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.first{
-    margin-top: 50px;
-    margin-left: 50px;
-    color: black;
-    font-weight: bolder;
-    font-size: 25px;
+
+/* Individual Card */
+.feedback-card {
+  flex: 1 1 300px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fafafa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Feedback text */
+.feedback-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp.jpeg) ;
+  background-size: contain;
+}
+.user-img1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp1.jpeg) ;
+  background-size: contain;
+}
+.user-img2{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image:url(pfp2.jpeg) ;
+  background-size: contain;
+}
+.user-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.role {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
 }
 .photo{
     margin-top: 50px;
